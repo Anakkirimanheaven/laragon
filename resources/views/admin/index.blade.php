@@ -1,4 +1,57 @@
 @extends('layouts.admin')
 @section('content')
 <h1>Ini Halaman Admin</h1>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
+<span class="text-danger"><i class="tf-icons mdi mdi-heart"></i></span>
 @endsection

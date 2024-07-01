@@ -240,17 +240,26 @@
                         </div>
                     </div>
                     <div class="header-user">
-                        <a href="{{url('user')}}">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                                    class="fill-current">
-                                    <path fill="none" d="M0 0h24v24H0z"></path>
-                                    <path
-                                        d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z">
-                                    </path>
-                                </svg>
-                            </span>
-                        </a>
+                        @guest
+                            <a href="{{url('login')}}">Login</a>| <a href="{{url('register')}}">Register</a>
+                            @else
+                            <a href="{{route('logout')}}"
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                        class="fill-current">
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path
+                                            d="M20 22H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <form action="{{route('logout')}}" method="post" id="logout-form">
+                                    @csrf
+                                </form>
+                                  Logout
+                            </a>
+                        @endguest
                     </div>
                 </div>
             </div>

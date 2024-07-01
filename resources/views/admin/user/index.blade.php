@@ -31,6 +31,16 @@
                     <tbody class="table-border-bottom-0">
                         @php $i=1; @endphp
                         @foreach ($users as $data)
+                        @if ($loop->first)
+                        <tr>
+                            <td>{{ $i++ }}</td>
+                            <td>{{ $data->name }}</td>
+                            <td>{{ $data->email }}</td>
+                            <td>{{ $data->isAdmin == 1 ? 'Admin' : 'User' }}</td>
+                            <td>
+                            </td>
+                        </tr>
+                        @else
                             <tr>
                                 <td>{{ $i++ }}</td>
                                 <td>{{ $data->name }}</td>
@@ -43,13 +53,12 @@
                                         <a href="{{ route('user.edit', $data->id) }}" class="btn btn-sm btn-warning">
                                             Edit
                                         </a>
-                                        <button type="submit" class="btn btn-sm btn-danger"
-                                            onclick="return confirm('Are You Sure?')">
-                                            Delete
-                                        </button>
+                                        <a href="{{ route('user.destroy', $data->id) }}" class="btn btn-sm btn-danger"
+                                         data-confirm-delete="true">Delete</a>
                                     </form>
                                 </td>
                             </tr>
+                        @endif
                         @endforeach
                     </tbody>
                 </table>
